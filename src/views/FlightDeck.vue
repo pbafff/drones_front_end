@@ -1,7 +1,6 @@
 <template>
   <div id="fd">
     <button @click="$router.push('/hangar')">Hangar</button>
-    <button @click="getObject">get object</button>
     <VideoPlayer/>
     <p>{{name}}</p>
     <a

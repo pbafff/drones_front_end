@@ -12,6 +12,16 @@ import AuthModal from "@/components/AuthModal.vue";
 import eventBus from "@/main";
 import firebase from "firebase";
 
+const config = {
+  apiKey: "AIzaSyBcZZ5s3-o1QtZ2u-vaD7HNZss90ZiF65c",
+  authDomain: "rpi-webrtc.firebaseapp.com",
+  databaseURL: "https://rpi-webrtc.firebaseio.com",
+  projectId: "rpi-webrtc",
+  storageBucket: "rpi-webrtc.appspot.com",
+  messagingSenderId: "104152138266"
+};
+firebase.initializeApp(config);
+
 export default {
   name: "app",
   data() {
